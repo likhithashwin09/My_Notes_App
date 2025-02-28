@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid black;
+  padding: 8px;
+  background-color: rgb(202, 127, 234);
+}
+.header img {
+  height: 35px;
+}
+.header h1 {
+  flex-grow: 1;
+  /* text-align: center; */
+  padding-left: 5px;
+}
+
+.notes-main {
+  display: flex;
+  width: 100dvw;
+  justify-content: center;
+}
+
+.notesinput {
+  display: flex;
+  flex-direction: column;
+  width: 50dvh;
+  margin: 8px;
+  margin-top: 16px;
+}
+
+#notes-desc {
+  height: 200px;
+}
+
+.notes-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  max-width: 90vdw;
+}
+
+.notes-section {
+  border: 1px solid black;
+  padding: 4px;
+  width: 300px;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  margin: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+.desc{
+    word-break:break-all;
+}
