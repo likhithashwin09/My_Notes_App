@@ -6,10 +6,8 @@ let notesseccontainer = document.getElementById("notes-container");
 
 let notes=[]
 let parseddata = JSON.parse(localStorage.getItem("notes"));
-// console.log(parseddata)
 if (parseddata?.length>0){
     notes=[...parseddata];
-    console.log(notes)
     gennote();
 }
 else{
